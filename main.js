@@ -38,8 +38,8 @@ window.onscroll = () => {
 function sendEmail() {
   Email.send({
     SecureToken: "675be58e-e933-414a-9de6-e558782dfe25",
-    To: "contatofewarchelski@gmail.com",
-    From: "contatofewarchelski@gmail.com",
+    To: "anjanikumar14333@gmail.com",
+    From: "anjanikumar14333@gmail.com",
     Subject: "New Message from FW PORTFOLIO!",
     Body:
       "Name: " +
