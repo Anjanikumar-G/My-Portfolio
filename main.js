@@ -37,7 +37,8 @@ window.onscroll = () => {
 
 function sendEmail() {
   Email.send({
-    SecureToken: "AIzaSyDftN8ceDLecgJBpzySiu7qCO2ARkR51p0",
+    SecureToken:
+      "70e0de0de2891035bc896bbe3514ca44-bf76c166-caff-4fce-bd09-f48bb466fb6f",
     To: "anjanikumar14333@gmail.com",
     From: "anjanikumar14333@gmail.com",
     Subject: "New Message from AG PORTFOLIO!",
