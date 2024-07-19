@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="imgs/laptop.png" type="image/x-icon" />
+    <title>Anjanikumar-G</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="#null"><i class="bx bx-code-alt"></i>AG</a>
+      </div>
+      <div class="header-buttons">
+        <a href="#null" class="active-home" id="home-but">Home</a>
+        <a href="#about" class="active-about">About</a>
+        <a href="#projects" class="active-projects">Projects</a>
+        <a href="#contact" class="active-contact">Contact</a>
+      </div>
+    </header>
+    <div class="null" id="null"></div>
+    <section class="home" id="home">
+      <div class="img-home">
+        <img src="imgs/memoji1.png" alt="" />
+      </div>
+      <div class="fw">
+        <h1>Anjanikumar Guruvali</h1>
+        <h2>Front-End Developer</h2>
+        <p>
+          A passionate developer, based in <strong>Hyderabad, India. 📍</strong>
+        </p>
+        <div class="fw-buttons">
+          <a
+            href="https://www.linkedin.com/in/anjanikumar-guruvali-530a5113a/"
+            target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://github.com/Anjanikumar-G" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="null2" id="null2"></div>
+      <div class="about-moldure" id="about-moldure">
+        <div class="about-content">
+          <h1>About Me</h1>
+          <h2>An ambitious Front-End developer, who aspires to success 🎓</h2>
+          <p>
+            I am a skilled, creative, and analytical programmer with a nimble
+            mind to solve problems and translate ideas into functional code. My
+            collaboration and passion for programming, coupled with my ability
+            to learn quickly, make me a valuable asset to any development team.
+          </p>
+          <h3>Skills:</h3>
+          <img
+            id="html-img"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+          />
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+          />
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+          />
+        </div>
+        <div class="img-about">
+          <img src="imgs/IMG_20230223_142713.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="projects-text">
+        <h1>Projects</h1>
+        <h2>Each project is planned and is part of my coding history 💻</h2>
+      </div>
+      <div class="projects-content">
+        <a
+          href="https://bewakoof-store-clone-react-project-2-6828r1yuypnv.vercel.app/"
+          target="_blank"
+          ><img
+            src="imgs/Screenshot 2024-07-16 at 5.52.49 PM.png"
+            alt="Ecommerce Application-Bewakoof Store"
+        /></a>
+        <a
+          href="https://you-tube-music-react-clone-react-project-1-mugjfghwl481.vercel.app/"
+          target="_blank"
+          ><img
+            src="imgs/Screenshot 2024-07-19 at 9.03.13 PM.png"
+            alt="YouTube Music Clone"
+        /></a>
+        <a href="https://pokemon-api-lemon.vercel.app/" target="_blank"
+          ><img
+            src="imgs/Screenshot 2024-07-19 at 9.05.47 PM.png"
+            alt="Pokemon Kingdom"
+        /></a>
+        <a
+          href="https://movie-desk-nvggluo5b-anjanikumars-projects.vercel.app/"
+          target="_blank"
+          ><img
+            src="imgs/Screenshot 2024-07-19 at 9.06.29 PM.png"
+            alt="Movie-Desk"
+        /></a>
+        <a
+          href="https://anjanikumar-g.github.io/Spotify-Landing-Page/"
+          target="_blank"
+          ><img
+            src="imgs/Screenshot 2024-07-19 at 9.06.12 PM.png"
+            alt="Spotify-Landing-Page"
+        /></a>
+      </div>
+      <div class="projects-button">
+        <a
+          href="https://github.com/Anjanikumar-G?tab=repositories"
+          target="_blank"
+          >See more</a
+        >
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-moldure">
+        <div class="contact-content">
+          <h1>Contact</h1>
+          <h2>Get in touch with me 👇</h2>
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="Share what's on your mind"
+            ></textarea>
+            <button type="submit" id="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="copyright">
+      <h1>All rights reserved ©</h1>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
